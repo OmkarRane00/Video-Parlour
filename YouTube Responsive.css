@@ -1,0 +1,83 @@
+@media screen and (max-width: 800px)
+{
+	#line,.header
+	{
+		width: 100%;
+	}
+
+	#searchbox,.searchimg
+	{
+		display: none;
+	}
+
+	#searchbox
+	{
+		border: 1px solid;
+		width: 35%;
+		float: left;
+		margin-left: 25px;
+	}
+
+	#searchbox input
+	{
+		width: 100%;
+		border: 1px solid;
+	}
+
+	.searchimg
+	{
+		float: left;
+	}
+
+	.img2 img
+	{
+		display: none;
+	}
+
+	.responsiveimg
+	{
+		display: block;
+		float: right;
+	}
+
+	.responsiveimg img
+	{
+		margin-top: 20px;
+	}
+
+	.backbutton
+	{
+		float: left;
+		margin-top: 10px;
+	}
+
+	#signin
+	{
+		margin-left: 0;
+	}
+
+	#youtubeicon img
+	{
+		height: 25px;
+		width: 25px;
+		margin-left: 0px;
+		margin-top: 21px;
+	}
+
+	#youtubeicontext img
+	{
+		display: none;
+	}
+
+	#menubutton img
+	{
+		height: 20px;
+		width: 20px;
+		margin-top: 20px;
+	}
+
+	#menubuttonstyle
+	{
+		margin-left: 0;
+	}
+}

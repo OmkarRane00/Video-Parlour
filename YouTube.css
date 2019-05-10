@@ -1,0 +1,776 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#line
+{
+	/*border: 1px solid red;*/
+	overflow: auto;
+	min-height: 1000px;
+	background-color: #fafafa;
+}
+
+.header
+{
+	/*border: 1px solid violet;*/
+	/*height: 50px;*/
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+	box-shadow: 10px 0px 20px 1px #ddd;
+	z-index: 10;
+	top: 0;
+	background-color: #fff;
+}
+
+.header img
+{
+	height: 25px;
+	width: 25px;
+	margin: 15px;
+	cursor: pointer;
+}
+
+#menubutton
+{
+	/*border: 1px solid;*/
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#menubuttonstyle
+{
+	height: 0px;
+	width: 0px;
+	margin-top: 10px;
+	background-color: black;
+	opacity: 0.2;
+	color: darkgrey;
+	margin-left: 25px;
+	position: fixed;
+	border-radius: 20px;
+}
+
+.youtubeicon
+{
+	/*border: 1px solid;*/
+	float: left;
+	position: absolute;
+	margin-left: 60px;
+}
+
+.youtubeicon img
+{
+	height: 35px;
+	width: 35px;
+	margin-bottom: 0;
+}
+
+#youtubeicontext
+{
+	border: 1px solid white;
+	border-left: none;
+	border-right: none;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+}
+
+#youtubeicontext img
+{
+	height: 80px;
+	width: 80px;
+	margin-top: -8px;
+	/*margin-bottom: -14px;*/
+	margin-bottom: -5px;
+}
+
+#searchbox
+{
+	/*border: 1px solid;*/
+	float: left;
+	margin-top: 20px;
+	margin-left: 160px;
+}
+
+#searchbox input
+{
+	height: 30px;
+	width: 550px;
+	font-family: arial;
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+
+.searchimg
+{
+	float: left;
+}
+
+.searchimg img
+{
+	border: 1px solid #ccc;
+	background-color: rgb(247, 247, 247);
+	height: 28px;
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 28px;
+	padding: 0 15px;
+}
+
+.searchimg img:hover
+{
+	background-color: #eee;
+}
+
+.img2
+{
+	display: none;
+}
+
+.responsiveimg
+{
+	display: none;
+}
+
+.backbutton
+{
+	display: none;
+}
+
+#signin
+{
+	float: right;
+	/*border: 1px solid;*/
+	margin: 25px 20px;
+}
+
+#signin a
+{
+	text-decoration: none;
+	color: red;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#slidemenu
+{
+	/*border: 1px solid red;*/
+	width: 220px;
+	position: fixed;
+	top: 72px;
+	left: -300px;
+	bottom: 0;
+	background-color: rgb(245,245,245);
+	z-index: 10;
+	overflow: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.topmenu
+{
+	/*border: 1px solid violet;*/
+	height: 150px;
+	border-bottom: 1px solid #eee;
+}
+
+.topmenu img
+{
+	height: 30px;
+	width: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.topmenu li
+{
+	list-style: none;
+}
+
+.topmenu a
+{
+	text-decoration: none;
+	font-family: arial;
+	color: black;
+	/*font-weight: bold;*/
+	font-size: 15px;
+	display: block;
+	margin-left: 80px;
+	margin-top: -29px;
+}
+
+.midmenu p
+{
+	color: grey;
+	font-family: arial;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.midmenu
+{
+	height: 410px;
+}
+
+.midmenu img
+{
+	border-radius: 15px;
+}
+
+#wrapper
+{
+	/*border: 1px solid red;*/
+	margin-top: 7%;
+	height: 2330px;
+	float: right;
+	width: 90%;
+	margin-right: 5%;
+}
+
+#ad
+{
+	/*border: 1px solid violet;*/
+	height: 15%;
+	overflow: auto;
+}
+
+#advideo
+{
+	/*border: 1px solid;*/
+	height: 95%;
+	width: 55%;
+	float: left;
+}
+
+.adnushtemplate
+{
+	/*border: 1px solid red;*/
+	float: right;
+	height: 95%;
+	width: 44%;
+}
+
+#advertisement
+{
+	/*border: 1px solid black;*/
+	height: 97%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.adnushpara
+{
+	/*border: 1px solid yellow;*/
+    font-family: arial;
+    overflow: auto;
+    margin-top: 5%;
+}
+
+.adpara1
+{
+	float: left;
+	/*border: 1px solid;*/
+}
+
+.adpara2
+{
+	color: grey;
+	font-size: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+	width: 24%;
+}
+
+
+.adpara2 img
+{
+	height: 15%;
+	width: 15%;
+	float: right;
+	margin-top: -12%;
+	margin-left: 1%;
+	cursor: pointer;
+}
+
+.adnushimg
+{
+	/*border: 1px solid pink;*/
+	height: 38%;
+	margin-top: 3%;
+	overflow: auto;
+}
+
+.adnushphoto
+{
+	/*border: 1px solid;*/
+	float: left;
+	height: 96%;
+	width: 30%;
+	padding: 0 2%;
+}
+
+.adnushphoto img
+{
+	height: 98%;
+	width: 98%;
+	cursor: pointer;
+}
+
+.adnushall
+{
+	/*border: 1px solid;*/
+	float: right;
+	width: 63%;
+	height: 95%;
+}
+
+.adnushtext
+{
+	/*border: 1px solid;*/
+	margin-top: 3%;
+}
+
+.adnushtext a
+{
+	font-family: arial;
+	color: darkblue;
+	font-size: 70%;
+	text-decoration: none;
+}
+
+.adprice,.delivery
+{
+	/*border: 1px solid;*/
+}
+
+.delivery
+{
+	color: grey;
+	font-family: arial;
+	font-size: 70%;
+}
+
+.shoppername
+{
+	font-family: arial;
+	color: green;
+	font-size: 70%;
+}
+
+.recommended,.recommendedvideos,.discriptionshort
+{
+	/*border: 1px solid;*/
+}
+
+.recommended
+{
+	border-bottom: 1px solid #eee;
+}
+
+.text
+{
+	overflow: auto;
+	/*border: 5px solid;*/
+	margin-bottom: 2%;
+	margin-top: 1%;
+}
+
+.text img
+{
+	height: 2.5%;
+	width: 2.5%;
+	float: left;
+	border-radius: 20px;
+	margin-right: 1%;
+	cursor: pointer;
+}
+
+.text p
+{
+	font-family: arial;
+	font-weight: 550;
+	color: rgb(38,26,35);
+	margin-top: 0.5%;
+	cursor: pointer;
+}
+
+.recommendedvideos
+{
+	height: 200px;
+	margin-top: 1%;
+}
+
+.videotemplate
+{
+	/*border: 1px solid yellow;*/
+	float: right;
+	height: 99%;
+	width: 17%;
+	margin-left: 2.7%;
+}
+
+.video
+{
+	/*border: 1px solid black;*/
+	height: 50%;
+	cursor: pointer;
+}
+
+.video img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.videotxt p
+{
+	font-family: arial;
+	/*border: 1px solid;*/
+	font-weight: bold;
+	margin-bottom: 3%;
+	cursor: pointer;
+	overflow: auto;
+}
+
+.discriptionshort  p
+{
+	color: grey;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.discriptiondiscription
+{
+	font-family: arial;
+	font-size: 15px;
+	display: none;
+	color: white;
+	padding: 10px;
+}
+
+.imgshort
+{
+	display: none;
+}
+
+
+.onclickdiv
+{
+	background-color: #fafafa;	
+	height: 0px;
+	width: 0px;
+	/*display: none;*/
+	/*position: fixed;*/
+	left: 0;
+	margin-top: 575px;
+	/*border: 5px solid red; */
+	overflow: auto;
+}
+
+.onclickdiv img
+{
+	/*margin-left: 5%;
+	margin-top: 1%;*/
+	height: 350px;
+	width: 99.5%;
+}
+
+.onclickback
+{
+	float: left;
+	display: none;
+}
+
+#blackbox
+{
+	/*border: 1px solid #ccc;*/
+	background-color: black;
+	opacity: 0.4;
+	height: 330px;
+	width: 0px;
+	position: fixed;
+	left: 65px;
+	top: 100px;
+}
+
+#mainsuggest
+{
+	display: none;
+}
+
+#suggestedvid
+{
+	/*border: 1px solid;*/
+	float: right;
+	width: 40%;
+	height: 100px;
+	margin-right: 3%;
+	margin-top: 1%;
+}
+
+.suggestedtmp
+{
+	/*border: 1px solid red;*/
+	height: 95%;
+	width: 95%;
+	margin: 1% auto;
+	overflow: auto;
+}
+
+.suggestedvideo
+{
+	/*border: 1px solid yellow;*/
+	float: left;
+	height: 95%;
+	width: 35%;
+}
+
+.suggestedvideo img
+{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.suggestedtitle
+{
+	/*border: 1px solid violet;*/
+	float: right;
+	height: 95%;
+	width: 62%;
+}
+
+.suggestedpara
+{
+	/*border: 1px solid green;*/
+	height: 40%;
+	width: 95%;
+	margin: 1% auto;
+}
+
+.suggestedpara p
+{
+	/*font-weight: bold;*/
+	font-family: arial;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.suggesteduser
+{
+	/*border: 1px solid #ccc;*/
+	height: 45%;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.suggesteduser p
+{
+	font-family: arial;
+	color: #bbb;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#linesign
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1000;
+	overflow: hidden;
+}
+
+#bagroundvideo
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#tempsignin
+{
+	position: absolute;
+	z-index: 100;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+}
+
+#whitebox
+{
+	position: absolute;
+	border: 1px solid #aaa;
+	height: 80%;
+	width: 40%;
+	top: 10%;
+	left: 30%;
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+#whitebox:hover
+{
+	box-shadow: 0px 0px 50px 5px;
+	transition: 0.5s;
+}
+
+#whiteinner
+{
+	height: 25%;
+	width: 99%;
+	/*border: 1px solid white;*/
+}
+
+.btnsignin
+{
+	/*border: 1px solid white;*/
+	float: left;
+	height: 35%;
+	width: 40%;
+	margin: 5% auto;
+	text-align: center;
+	background-color: darkcyan;
+	opacity: 0.8;
+}
+
+.btnlogin
+{
+	background-color: black;
+}
+
+.btnsignin:hover
+{
+	background-color: cyan;
+	transition: 0.5s;
+}
+
+
+.btnsignin a
+{
+	display: block;
+	margin-top: 7%;
+	text-decoration: none;
+	color: white;
+}
+
+.btnsignin1
+{
+	margin-left: 10%;
+}
+
+#simplepara
+{
+	text-align: center;
+}
+
+#simplepara p
+{
+	color: white;
+	font-family: Verdana;
+	font-size: 26px;
+}
+
+#maindiv
+{
+	/*border: 1px solid white;*/
+	height: 68%;
+}
+
+#twodiv
+{
+	/*border: 1px solid white;*/
+	height: 33%;
+}
+
+.usernamediv
+{
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.usernamediv input
+{
+	background-color: transparent;
+	border: 1px solid white;
+	height: 30px;
+	width: 190px;
+	margin-top: 20%;
+	margin-left: 25%;
+	color: white;
+	font-family: Verdana;
+	font-size: 17px;
+}
+
+::-webkit-input-placeholder{
+	color: white;
+}
+
+.passworddiv
+{
+	margin-left: 5%;
+}
+
+.emailaddsign input
+{
+  	height: 30px;
+  	width: 80%;
+  	background-color: transparent;
+  	margin-left: 9%;
+  	font-family: Verdana;
+	font-size: 17px;
+}
+
+.passwordaddsign
+{
+	margin-top: 7%;	
+}
+
+.lastbutton
+{
+	/*border: 1px solid white;*/
+	text-align: center;
+	margin-top: 9%;
+}
+
+.lastbutton a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 26px;
+	/*border: 1px solid white;*/
+	padding: 10px 123px;
+	background-color: darkcyan;
+	opacity: 0.8;
+}

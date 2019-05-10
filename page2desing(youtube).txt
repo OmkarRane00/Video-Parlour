@@ -1,0 +1,15 @@
+<div id="suggestedvid">
+				<div class="suggestedtmp">
+					<div class="suggestedvideo">
+						<img src="images/howlong.jpg">
+					</div>
+					<div class="suggestedtitle">
+						<div class="suggestedpara">
+							<p>Charlie Puth - "How Long" [Official Video]</p>
+						</div>
+						<div class="suggesteduser">
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
